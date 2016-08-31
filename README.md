@@ -22,8 +22,8 @@ MIT © [Johan Carlsson]()
 [npm-image]: https://badge.fury.io/js/yfinance.svg
 [npm-url]: https://npmjs.org/package/yfinance
 [travis-image]: https://travis-ci.org/johancn87/yf.svg?branch=master
-[travis-url]: https://travis-ci.org/johancn87/yfinance
-[daviddm-image]: https://david-dm.org/johancn87/yfinance.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/johancn87/yfinance
-[coveralls-image]: https://coveralls.io/repos/johancn87/yfinance/badge.svg
-[coveralls-url]: https://coveralls.io/r/johancn87/yfinance
+[travis-url]: https://travis-ci.org/johancn87/yf
+[daviddm-image]: https://david-dm.org/johancn87/yf.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/johancn87/yf
+[coveralls-image]: https://coveralls.io/repos/johancn87/yf/badge.svg
+[coveralls-url]: https://coveralls.io/r/johancn87/yf

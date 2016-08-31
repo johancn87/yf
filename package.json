@@ -1,6 +1,6 @@
 {
   "name": "yfinance",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Yahoo Finance API for NodeJs.",
   "homepage": "https://github.com/johancn87/yf",
   "author": {

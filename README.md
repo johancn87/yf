@@ -12,7 +12,17 @@ $ npm install --save yfinance
 ```js
 var yfinance = require('yfinance');
 
-yfinance('Rainbow');
+yfinance.getQuotes('JNJ', function (data) {
+    //...
+});
+
+yfinance.getHistorical('JNJ', '2016-08-01', '2016-08-05', function (data) {
+    //...
+});
+
+yfinance.getDividendHistory('JNJ', '2015-01-01', '2015-12-31', function (data) {
+    //... endDate not working!
+});
 ```
 ## License
 

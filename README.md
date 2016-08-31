@@ -25,5 +25,5 @@ MIT © [Johan Carlsson]()
 [travis-url]: https://travis-ci.org/johancn87/yf
 [daviddm-image]: https://david-dm.org/johancn87/yf.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/johancn87/yf
-[coveralls-image]: https://coveralls.io/repos/johancn87/yf/badge.svg
-[coveralls-url]: https://coveralls.io/r/johancn87/yf
+[coveralls-image]: https://coveralls.io/repos/github/johancn87/yf/badge.svg?branch=master
+[coveralls-url]: https://coveralls.io/github/johancn87/yf?branch=master

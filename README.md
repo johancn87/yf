@@ -21,7 +21,7 @@ MIT © [Johan Carlsson]()
 
 [npm-image]: https://badge.fury.io/js/yfinance.svg
 [npm-url]: https://npmjs.org/package/yfinance
-[travis-image]: https://travis-ci.org/johancn87/yfinance.svg?branch=master
+[travis-image]: https://travis-ci.org/johancn87/yf.svg?branch=master
 [travis-url]: https://travis-ci.org/johancn87/yfinance
 [daviddm-image]: https://david-dm.org/johancn87/yfinance.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/johancn87/yfinance

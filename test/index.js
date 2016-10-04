@@ -4,7 +4,7 @@ import yfinance from '../lib';
 describe('yfinance', function () {
     describe('getQuotes', function () {
         it('Single quote!', function (done) {
-            yfinance.getQuotes('JNJ', function (data) {
+            yfinance.getQuotes('JNJ', function (err, data) {
                 if (!data) {
                     done('Got no data!');
                     return;
@@ -22,7 +22,7 @@ describe('yfinance', function () {
         });
 
         it('Comma seperated quotes!', function (done) {
-            yfinance.getQuotes('JNJ,GOOG', function (data) {
+            yfinance.getQuotes('JNJ,GOOG', function (err, data) {
                 if (!data) {
                     done('Got no data!');
                     return;
@@ -48,7 +48,7 @@ describe('yfinance', function () {
         });
 
         it('Array of quotes!', function (done) {
-            yfinance.getQuotes(['JNJ', 'GOOG'], function (data) {
+            yfinance.getQuotes(['JNJ', 'GOOG'], function (err, data) {
                 if (!data) {
                     done('Got no data!');
                     return;
@@ -76,7 +76,7 @@ describe('yfinance', function () {
 
     describe('getHistorical', function () {
         it('Should get some results!', function (done) {
-            yfinance.getHistorical('JNJ', '2016-08-01', '2016-08-05', function (data) {
+            yfinance.getHistorical('JNJ', '2016-08-01', '2016-08-05', function (err, data) {
                 if (!data) {
                     done('Got no data!');
                     return;
@@ -100,7 +100,7 @@ describe('yfinance', function () {
 
     describe('getDividendHistory', function () {
         it('Should get some results!', function (done) {
-            yfinance.getDividendHistory('JNJ', '2015-01-01', '2015-12-31', function (data) {
+            yfinance.getDividendHistory('JNJ', '2015-01-01', '2015-12-31', function (err, data) {
                 if (!data) {
                     done('Got no data!');
                     return;
